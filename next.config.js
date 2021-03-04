@@ -22,7 +22,14 @@ module.exports = withBundleAnalyzer({
       'repository-images.githubusercontent.com',
       'www.gravatar.com',
       'github.githubassets.com',
+      'ghost-cibera-blog.herokuapp.com'
     ],
   },
   reactStrictMode: true,
 })
+
+module.exports = {
+  images: {
+    domains: ['ghost-cibera-blog.herokuapp.com'],
+  },
+}
